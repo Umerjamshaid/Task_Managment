@@ -13,13 +13,24 @@ class HomeScreen extends StatelessWidget {
             Container(
               height: 45,
               width: 45,
+              // margin: EdgeInsets.only(left: 15),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Image.asset('assets/images/avatar.png'),
               ),
             ),
+            SizedBox(width: 10),
+            Text(
+              'Hi Umer!',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 26,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
+        actions: [Icon(Icons.more_vert, color: Colors.black, size: 40)],
       ),
       body: Center(child: Text('HOME SCREEN')),
     );
