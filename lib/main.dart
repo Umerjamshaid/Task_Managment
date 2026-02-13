@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_managment/screens/home/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'PipFa Tasks',
+      home: HomeScreen(),
       routes: {
         /*'/intro_screen': (context) => const IntroScreen(),
         '/menu_screen': (context) => const MenuScreen(),
