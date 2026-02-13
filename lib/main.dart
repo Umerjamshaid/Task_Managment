@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'PipFa Tasks',
       routes: {
         /*'/intro_screen': (context) => const IntroScreen(),
         '/menu_screen': (context) => const MenuScreen(),
